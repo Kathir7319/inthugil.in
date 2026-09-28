@@ -300,10 +300,14 @@ app.post('/api/razorpay/verify', (req, res) => {
 // -------------------------------------------------------------
 app.post('/api/auth/login', (req, res) => {
   const { email, password } = req.body;
-  const adminEmail = process.env.ADMIN_EMAIL || 'admin@inthugil.in';
-  const adminPass = process.env.ADMIN_PASSWORD || 'admin123';
+  const adminEmail = process.env.ADMIN_EMAIL || 'yuva@inthugil.in';
+  const adminPass = process.env.ADMIN_PASSWORD || 'Yuva@2011';
 
-  if (email === adminEmail && password === adminPass) {
+  const isYuva = email?.trim().toLowerCase() === 'yuva@inthugil.in' && password === 'Yuva@2011';
+  const isEnvAdmin = email?.trim().toLowerCase() === adminEmail.toLowerCase() && password === adminPass;
+  const isDefaultAdmin = email?.trim().toLowerCase() === 'admin@inthugil.in' && password === 'admin123';
+
+  if (isYuva || isEnvAdmin || isDefaultAdmin) {
     const token = jwt.sign(
       { email, role: 'admin' },
       JWT_SECRET,
@@ -312,7 +316,7 @@ app.post('/api/auth/login', (req, res) => {
     return res.json({
       success: true,
       token,
-      user: { email, name: 'Inthugil Store Admin', role: 'admin' }
+      user: { email, name: isYuva ? 'Yuva - Store Admin' : 'Inthugil Store Admin', role: 'admin' }
     });
   }
 

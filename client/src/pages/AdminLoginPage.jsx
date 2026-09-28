@@ -9,8 +9,8 @@ export const AdminLoginPage = () => {
   const navigate = useNavigate();
   const { login } = useAuth();
 
-  const [email, setEmail] = useState('admin@inthugil.in');
-  const [password, setPassword] = useState('admin123');
+  const [email, setEmail] = useState('yuva@inthugil.in');
+  const [password, setPassword] = useState('Yuva@2011');
   const [loading, setLoading] = useState(false);
   const [errorMsg, setErrorMsg] = useState('');
 
