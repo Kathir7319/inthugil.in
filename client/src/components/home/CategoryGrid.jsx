@@ -65,13 +65,13 @@ export const CategoryGrid = () => {
           </Link>
         </div>
 
-        {/* 4 Column Category Cards */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        {/* 2 Column Mobile / 4 Column Desktop Category Cards */}
+        <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-6">
           {items.map((cat) => (
             <Link
               key={cat.slug}
               to={`/${cat.slug}`}
-              className="group relative rounded-3xl overflow-hidden aspect-[3/4] bg-sand-200 shadow-soft hover:shadow-lift transition-all duration-500 block border border-sand-200 hover:border-gold-400"
+              className="group relative rounded-2xl sm:rounded-3xl overflow-hidden aspect-[3/4] bg-sand-200 shadow-soft hover:shadow-lift transition-all duration-500 block border border-sand-200 hover:border-gold-400"
             >
               {/* Background Image */}
               <img
@@ -85,23 +85,23 @@ export const CategoryGrid = () => {
               <div className="absolute inset-0 bg-gradient-to-t from-regal-950/90 via-regal-950/30 to-transparent transition-opacity group-hover:from-peacock-950/95" />
 
               {/* Text info bottom */}
-              <div className="absolute inset-x-0 bottom-0 p-6 flex items-end justify-between text-white">
+              <div className="absolute inset-x-0 bottom-0 p-3 sm:p-6 flex items-end justify-between text-white">
                 <div>
-                  <div className="flex items-center gap-2 mb-1">
-                    <span className="text-[10px] font-bold tracking-widest uppercase text-gold-400">
+                  <div className="flex items-center gap-1.5 sm:gap-2 mb-0.5 sm:mb-1">
+                    <span className="text-[9px] sm:text-[10px] font-bold tracking-widest uppercase text-gold-400 line-clamp-1">
                       {cat.subtitle || cat.headline || "Collection"}
                     </span>
                   </div>
-                  <h3 className="font-serif text-2xl font-bold tracking-tight text-white group-hover:text-gold-200 transition">
+                  <h3 className="font-serif text-base sm:text-2xl font-bold tracking-tight text-white group-hover:text-gold-200 transition">
                     {cat.name}
                   </h3>
-                  <p className="text-xs text-sand-300 mt-1 line-clamp-1">
+                  <p className="text-[11px] sm:text-xs text-sand-300 mt-0.5 sm:mt-1 line-clamp-1 hidden sm:block">
                     {cat.intro ? `${cat.intro.slice(0, 48)}...` : "Curated for everyday grace"}
                   </p>
                 </div>
                 
-                <div className="w-10 h-10 rounded-full bg-white/20 backdrop-blur-md flex items-center justify-center text-white group-hover:bg-gold-500 group-hover:text-regal-950 transition duration-300 shrink-0 ml-2 shadow-soft">
-                  <ArrowUpRight className="w-5 h-5 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition" />
+                <div className="w-7 h-7 sm:w-10 sm:h-10 rounded-full bg-white/20 backdrop-blur-md flex items-center justify-center text-white group-hover:bg-gold-500 group-hover:text-regal-950 transition duration-300 shrink-0 ml-1.5 sm:ml-2 shadow-soft">
+                  <ArrowUpRight className="w-3.5 h-3.5 sm:w-5 sm:h-5 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition" />
                 </div>
               </div>
             </Link>

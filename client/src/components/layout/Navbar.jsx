@@ -78,13 +78,13 @@ export const Navbar = () => {
   return (
     <header className="sticky top-0 z-40 bg-white/95 backdrop-blur-md border-b border-sand-200 transition-all shadow-xs">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-20">
+        <div className="flex items-center justify-between h-16 sm:h-20">
           
           {/* Mobile Menu Button */}
           <div className="flex items-center lg:hidden">
             <button
               onClick={() => setMobileMenuOpen(true)}
-              className="p-2 text-slate-800 hover:text-peacock-700 transition"
+              className="p-2 -ml-2 text-slate-800 hover:text-peacock-700 transition"
               aria-label="Open menu"
             >
               <Menu className="w-6 h-6" />
@@ -93,15 +93,15 @@ export const Navbar = () => {
 
           {/* Brand Logo & Vel Emblem */}
           <div className="flex-1 lg:flex-initial text-center lg:text-left">
-            <Link to="/" className="inline-flex items-center gap-2.5 group">
-              <div className="w-9 h-9 rounded-2xl bg-gradient-to-br from-gold-400 via-gold-500 to-amber-600 flex items-center justify-center shadow-gold group-hover:scale-105 transition duration-300">
-                <VelIcon className="w-5 h-5 text-regal-950" />
+            <Link to="/" className="inline-flex items-center gap-2 sm:gap-2.5 group">
+              <div className="w-8 h-8 sm:w-9 sm:h-9 rounded-2xl bg-gradient-to-br from-gold-400 via-gold-500 to-amber-600 flex items-center justify-center shadow-gold group-hover:scale-105 transition duration-300">
+                <VelIcon className="w-4 h-4 sm:w-5 sm:h-5 text-regal-950" />
               </div>
               <div className="text-left">
-                <span className="font-serif text-2xl sm:text-3xl font-bold tracking-tight text-slate-900 group-hover:text-peacock-700 transition duration-300 block leading-tight">
+                <span className="font-serif text-xl sm:text-3xl font-bold tracking-tight text-slate-900 group-hover:text-peacock-700 transition duration-300 block leading-tight">
                   INTHUGIL
                 </span>
-                <span className="block text-[9px] tracking-widest uppercase font-bold text-peacock-800 -mt-0.5">
+                <span className="block text-[8px] sm:text-[9px] tracking-widest uppercase font-bold text-peacock-800 -mt-0.5">
                   துகில் • Sacred Grace, Everyday Prices
                 </span>
               </div>
@@ -134,7 +134,7 @@ export const Navbar = () => {
           </nav>
 
           {/* Action Icons */}
-          <div className="flex items-center space-x-2 sm:space-x-3">
+          <div className="flex items-center space-x-1.5 sm:space-x-3">
             
             {/* Search Trigger */}
             <div className="relative">
@@ -147,7 +147,7 @@ export const Navbar = () => {
               </button>
 
               {searchOpen && (
-                <div className="absolute right-0 mt-3 w-80 sm:w-96 bg-white shadow-lift rounded-3xl p-4 border border-sand-200 z-50 animate-in fade-in zoom-in-95 duration-150">
+                <div className="fixed sm:absolute inset-x-3 sm:inset-x-auto sm:right-0 top-18 sm:top-auto sm:mt-3 sm:w-96 bg-white shadow-2xl sm:shadow-lift rounded-3xl p-4 border border-sand-200 z-50 animate-in fade-in zoom-in-95 duration-150">
                   <form onSubmit={handleSearchSubmit} className="relative">
                     <input
                       type="text"
@@ -248,7 +248,7 @@ export const Navbar = () => {
             className="fixed inset-0 bg-regal-950/70 backdrop-blur-sm"
             onClick={() => setMobileMenuOpen(false)}
           />
-          <div className="relative w-4/5 max-w-sm bg-sand-50 h-full shadow-2xl flex flex-col justify-between p-6 z-10 overflow-y-auto border-r border-sand-200">
+          <div className="relative w-4/5 max-w-sm bg-sand-50 h-full min-h-[100dvh] shadow-2xl flex flex-col justify-between p-6 z-10 overflow-y-auto border-r border-sand-200">
             <div>
               <div className="flex items-center justify-between pb-6 border-b border-sand-200">
                 <div className="flex items-center gap-2">

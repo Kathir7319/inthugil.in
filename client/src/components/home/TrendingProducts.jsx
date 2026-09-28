@@ -63,15 +63,15 @@ export const TrendingProducts = () => {
           </p>
         </div>
 
-        {/* Tab Filter Pills */}
-        <div className="flex items-center justify-center gap-2 overflow-x-auto pb-4 mb-10 scrollbar-none">
+        {/* Tab Filter Pills - Touch-friendly horizontal scroll on mobile */}
+        <div className="flex items-center justify-start sm:justify-center gap-2 overflow-x-auto pb-4 mb-8 sm:mb-10 px-2 sm:px-0 scrollbar-none">
           {tabs.map((tab) => {
             const IconComp = tab.icon;
             return (
               <button
                 key={tab.id}
                 onClick={() => setActiveTab(tab.id)}
-                className={`px-5 py-2.5 rounded-full text-xs font-bold whitespace-nowrap transition duration-200 flex items-center gap-1.5 ${
+                className={`px-4 sm:px-5 py-2 sm:py-2.5 rounded-full text-xs font-bold whitespace-nowrap transition duration-200 flex items-center gap-1.5 shrink-0 ${
                   activeTab === tab.id
                     ? 'bg-peacock-800 text-white shadow-soft border border-peacock-700'
                     : 'bg-sand-100 text-sand-700 hover:bg-sand-200 border border-transparent'
@@ -84,9 +84,9 @@ export const TrendingProducts = () => {
           })}
         </div>
 
-        {/* Product Grid */}
+        {/* Product Grid - 2 Col Mobile / 4 Col Desktop */}
         {loading ? (
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-3 sm:gap-6">
             {[...Array(4)].map((_, i) => (
               <div key={i} className="animate-pulse space-y-3">
                 <div className="aspect-[3/4] bg-sand-200 rounded-2xl" />
@@ -96,7 +96,7 @@ export const TrendingProducts = () => {
             ))}
           </div>
         ) : (
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 sm:gap-6">
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 sm:gap-6">
             {filteredProducts.slice(0, 8).map((product) => (
               <ProductCard
                 key={product.id}

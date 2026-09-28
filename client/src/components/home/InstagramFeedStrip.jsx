@@ -44,14 +44,15 @@ export const InstagramFeedStrip = () => {
         <p className="text-xs text-sand-500 mt-1">Tag #InthugilStyle to be featured in our style gallery</p>
       </div>
 
-      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-3 max-w-[1400px] mx-auto px-4">
+      {/* Mobile Swipeable Strip / Desktop 5-Col Grid */}
+      <div className="flex overflow-x-auto gap-3 pb-3 px-4 scrollbar-none md:grid md:grid-cols-5 max-w-[1400px] mx-auto">
         {photos.map((item, idx) => (
           <a
             key={idx}
             href="https://instagram.com/inthugil"
             target="_blank"
             rel="noreferrer"
-            className="group relative aspect-square rounded-2xl overflow-hidden bg-sand-200 block shadow-soft"
+            className="group relative w-40 sm:w-52 md:w-auto shrink-0 md:shrink aspect-square rounded-2xl overflow-hidden bg-sand-200 block shadow-soft"
           >
             <img
               src={item.img}
@@ -59,13 +60,13 @@ export const InstagramFeedStrip = () => {
               loading="eager"
               className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
             />
-            <div className="absolute inset-0 bg-regal-950/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col items-center justify-center p-4 text-center text-white">
-              <Instagram className="w-6 h-6 text-white mb-2" />
+            <div className="absolute inset-0 bg-regal-950/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col items-center justify-center p-3 text-center text-white">
+              <Instagram className="w-5 h-5 sm:w-6 sm:h-6 text-white mb-1.5" />
               <div className="flex items-center gap-1 text-xs font-bold text-rose-300">
                 <Heart className="w-3.5 h-3.5 fill-current" />
                 <span>{item.likes}</span>
               </div>
-              <p className="text-[10px] text-sand-200 line-clamp-2 mt-1.5">{item.caption}</p>
+              <p className="text-[10px] text-sand-200 line-clamp-2 mt-1">{item.caption}</p>
             </div>
           </a>
         ))}

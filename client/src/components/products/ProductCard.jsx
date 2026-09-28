@@ -98,15 +98,15 @@ export const ProductCard = ({ product, onQuickView }) => {
       </div>
 
       {/* Product Details */}
-      <div className="p-4 flex-1 flex flex-col justify-between">
+      <div className="p-3 sm:p-4 flex-1 flex flex-col justify-between">
         <div>
           {/* Category & Rating */}
-          <div className="flex items-center justify-between text-xs text-sand-500 mb-1.5">
-            <span className="tracking-wide uppercase text-[10px] font-bold text-peacock-800">
+          <div className="flex items-center justify-between text-xs text-sand-500 mb-1 sm:mb-1.5">
+            <span className="tracking-wide uppercase text-[9px] sm:text-[10px] font-bold text-peacock-800">
               {product.categoryName || 'Women'}
             </span>
-            <div className="flex items-center text-amber-500 font-bold text-[11px]">
-              <Star className="w-3 h-3 fill-current mr-0.5 text-gold-500" />
+            <div className="flex items-center text-amber-500 font-bold text-[10px] sm:text-[11px]">
+              <Star className="w-2.5 h-2.5 sm:w-3 sm:h-3 fill-current mr-0.5 text-gold-500" />
               <span>{product.rating || 4.9}</span>
               <span className="text-sand-400 ml-0.5">({product.reviewCount || 24})</span>
             </div>
@@ -114,25 +114,25 @@ export const ProductCard = ({ product, onQuickView }) => {
 
           {/* Title */}
           <Link to={`/product/${product.slug}`} className="block group-hover:text-peacock-700 transition">
-            <h3 className="font-serif text-sm sm:text-base font-bold text-regal-900 line-clamp-1">
+            <h3 className="font-serif text-xs sm:text-base font-bold text-regal-900 line-clamp-1">
               {product.name}
             </h3>
           </Link>
 
           {/* Short description / Fabric snippet */}
-          <p className="text-xs text-sand-500 line-clamp-1 mt-1">
+          <p className="text-[11px] sm:text-xs text-sand-500 line-clamp-1 mt-0.5 sm:mt-1">
             {product.fabric || product.shortDescription}
           </p>
         </div>
 
         {/* Sizes & Price */}
-        <div className="mt-3 pt-3 border-t border-sand-100 flex items-center justify-between">
-          <div className="flex items-baseline gap-2">
-            <span className="text-base sm:text-lg font-bold text-regal-900 font-sans">
+        <div className="mt-2.5 sm:mt-3 pt-2 sm:pt-3 border-t border-sand-100 flex flex-wrap items-baseline justify-between gap-1">
+          <div className="flex items-baseline gap-1.5 sm:gap-2">
+            <span className="text-sm sm:text-lg font-bold text-regal-900 font-sans">
               {formattedPrice}
             </span>
             {formattedOriginalPrice && (
-              <span className="text-xs text-sand-400 line-through">
+              <span className="text-[10px] sm:text-xs text-sand-400 line-through">
                 {formattedOriginalPrice}
               </span>
             )}
@@ -140,15 +140,15 @@ export const ProductCard = ({ product, onQuickView }) => {
 
           {/* Quick Size Select Dots */}
           {product.availableSizes && product.availableSizes.length > 1 && (
-            <div className="flex items-center gap-1">
-              {product.availableSizes.slice(0, 4).map((sz) => (
+            <div className="flex items-center gap-1 py-0.5">
+              {product.availableSizes.slice(0, 3).map((sz) => (
                 <button
                   key={sz}
                   onClick={(e) => {
                     e.preventDefault();
                     setSelectedSize(sz);
                   }}
-                  className={`text-[10px] font-bold px-2 py-0.5 rounded-lg border transition ${
+                  className={`text-[9px] sm:text-[10px] font-bold px-1.5 sm:px-2 py-0.5 rounded-md sm:rounded-lg border transition ${
                     selectedSize === sz
                       ? 'bg-peacock-800 text-white border-peacock-800 shadow-xs'
                       : 'bg-sand-50 text-sand-700 border-sand-200 hover:border-sand-400'
@@ -157,8 +157,8 @@ export const ProductCard = ({ product, onQuickView }) => {
                   {sz}
                 </button>
               ))}
-              {product.availableSizes.length > 4 && (
-                <span className="text-[10px] text-sand-400 font-medium">+more</span>
+              {product.availableSizes.length > 3 && (
+                <span className="text-[9px] text-sand-400 font-medium">+{product.availableSizes.length - 3}</span>
               )}
             </div>
           )}
