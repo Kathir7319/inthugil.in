@@ -1,6 +1,7 @@
 // client/src/App.jsx
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
+import { ScrollToTop } from './components/common/ScrollToTop';
 import { AnnouncementBar } from './components/layout/AnnouncementBar';
 import { Navbar } from './components/layout/Navbar';
 import { Footer } from './components/layout/Footer';
@@ -29,6 +30,7 @@ const AppContent = () => {
 
   return (
     <div className="min-h-screen flex flex-col justify-between">
+      <ScrollToTop />
       {!isAdminRoute && (
         <>
           <AnnouncementBar />

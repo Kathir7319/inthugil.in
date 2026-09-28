@@ -116,22 +116,22 @@ export const Footer = () => {
             </h3>
             <ul className="space-y-2.5 text-sm text-teal-100/80">
               <li>
-                <Link to="/" className="hover:text-gold-300 transition">Home</Link>
+                <Link to="/" onClick={() => window.scrollTo({ top: 0, behavior: 'instant' })} className="hover:text-gold-300 transition">Home</Link>
               </li>
               <li>
-                <Link to="/ethnic-wear" className="hover:text-gold-300 transition">Ethnic Wear (மரபு)</Link>
+                <Link to="/ethnic-wear" onClick={() => window.scrollTo({ top: 0, behavior: 'instant' })} className="hover:text-gold-300 transition">Ethnic Wear (மரபு)</Link>
               </li>
               <li>
-                <Link to="/western-wear" className="hover:text-gold-300 transition">Western Wear</Link>
+                <Link to="/western-wear" onClick={() => window.scrollTo({ top: 0, behavior: 'instant' })} className="hover:text-gold-300 transition">Western Wear</Link>
               </li>
               <li>
-                <Link to="/loungewear" className="hover:text-gold-300 transition">Loungewear</Link>
+                <Link to="/loungewear" onClick={() => window.scrollTo({ top: 0, behavior: 'instant' })} className="hover:text-gold-300 transition">Loungewear</Link>
               </li>
               <li>
-                <Link to="/new-arrivals" className="hover:text-gold-300 transition">Mayil New Arrivals</Link>
+                <Link to="/new-arrivals" onClick={() => window.scrollTo({ top: 0, behavior: 'instant' })} className="hover:text-gold-300 transition">Mayil New Arrivals</Link>
               </li>
               <li>
-                <Link to="/track-order" className="hover:text-gold-300 transition">Track Order</Link>
+                <Link to="/track-order" onClick={() => window.scrollTo({ top: 0, behavior: 'instant' })} className="hover:text-gold-300 transition">Track Order</Link>
               </li>
             </ul>
           </div>
@@ -143,7 +143,7 @@ export const Footer = () => {
             </h3>
             <ul className="space-y-2.5 text-sm text-teal-100/80">
               <li>
-                <Link to="/about-us" className="hover:text-gold-300 transition">Our Story & Heritage</Link>
+                <Link to="/about-us" onClick={() => window.scrollTo({ top: 0, behavior: 'instant' })} className="hover:text-gold-300 transition">Our Story & Heritage</Link>
               </li>
               <li>
                 <Link to="/contact-us#faqs" className="hover:text-gold-300 transition">FAQs</Link>
@@ -152,7 +152,7 @@ export const Footer = () => {
                 <Link to="/contact-us#shipping" className="hover:text-gold-300 transition">India Shipping Info</Link>
               </li>
               <li>
-                <Link to="/contact-us" className="hover:text-gold-300 transition">Studio Contact</Link>
+                <Link to="/contact-us" onClick={() => window.scrollTo({ top: 0, behavior: 'instant' })} className="hover:text-gold-300 transition">Studio Contact</Link>
               </li>
             </ul>
           </div>
