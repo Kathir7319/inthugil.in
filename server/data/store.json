@@ -1,0 +1,642 @@
+{
+  "settings": {
+    "storeName": "Inthugil",
+    "tagline": "Draped in Grace, Blessed with Poise",
+    "subheadline": "Born of Tamil heritage, inspired by the majesty of the Vel & Peacock. Curated women's fashion that feels divine, at honest prices.",
+    "announcementBar": {
+      "enabled": true,
+      "text": "✨ Om Muruga | Draped in Grace • Tamizh Thugil Heritage Collection | Use Code: VEL10 for 10% Off",
+      "linkText": "Explore Mayil Edits",
+      "linkUrl": "/new-arrivals"
+    },
+    "heroBanner": {
+      "title": "Draped in Grace, Blessed with Poise",
+      "subtitle": "Inspired by the majesty of the peacock and sacred temple silks. Breathable everyday ethnic wear, flowing kurtis, and contemporary drapes crafted for modern Indian women.",
+      "ctaText": "Shop Heritage Collection",
+      "ctaLink": "/shop",
+      "secondaryCtaText": "Explore Ethnic Wear",
+      "secondaryCtaLink": "/ethnic-wear",
+      "backgroundImage": "https://images.unsplash.com/photo-1617627143750-d86bc21e42bb?auto=format&fit=crop&w=1200&q=80",
+      "badge": "வேல் • Mayil & Sacred Thugil Collection"
+    },
+    "welcomeStrip": {
+      "heading": "The Sacred Legacy of 'Thugil' (துகில்)",
+      "body": "In ancient Sangam literature, 'Thugil' celebrated the purest celestial drapery — woven with dignity, breathability, and timeless grace. Inthugil brings that sacred Tamil heritage into modern women's fashion: vibrant peacock blues, auspicious temple ochres, and featherlight cottons made to elevate your everyday confidence."
+    },
+    "valueHighlights": [
+      {
+        "title": "Shakti & Poise (The Vel)",
+        "description": "Sharp, flattering cuts inspired by the Vel's timeless strength and clarity, designed to empower every Indian woman.",
+        "icon": "Sparkles"
+      },
+      {
+        "title": "Thooya Thugil (Purity of Weave)",
+        "description": "100% pure breathable cottons, gentle chanderi, and natural dyes that feel like sacred silk against your skin.",
+        "icon": "ShieldCheck"
+      },
+      {
+        "title": "Dharmic Honest Pricing",
+        "description": "Direct from the artisan weaving belts of Tamil Nadu — authentic boutique elegance without exorbitant retail markups.",
+        "icon": "HeartHandshake"
+      }
+    ],
+    "trustStrip": [
+      {
+        "title": "Free Delivery Across India",
+        "description": "On all prepaid orders with express dispatch",
+        "icon": "Truck"
+      },
+      {
+        "title": "Easy 7-Day Returns",
+        "description": "Doorstep reverse pickups across all pin codes",
+        "icon": "RotateCcw"
+      },
+      {
+        "title": "100% Secure Payments",
+        "description": "Razorpay UPI, GPay, PhonePe & Cards",
+        "icon": "Lock"
+      },
+      {
+        "title": "Weaver Quality Checked",
+        "description": "Pure fabrics and reinforced stitching",
+        "icon": "CheckCircle"
+      }
+    ],
+    "contactInfo": {
+      "email": "care@inthugil.in",
+      "phone": "+91 7708 971 359",
+      "whatsapp": "+91 7708 971 359",
+      "address": "Somanur, Coimbatore",
+      "workingHours": "Mon - Sat: 9:30 AM – 7:00 PM IST",
+      "responseTime": "We typically respond within 24 hours."
+    },
+    "shippingPolicy": {
+      "freeShippingThreshold": 799,
+      "standardShippingFee": 70,
+      "codAvailable": true,
+      "codExtraCharge": 40,
+      "estimatedDays": "3 to 5 business days"
+    },
+    "socialLinks": {
+      "instagram": "https://instagram.com/inthugil",
+      "facebook": "https://facebook.com/inthugil",
+      "pinterest": "https://pinterest.com/inthugil"
+    },
+    "faqs": [
+      {
+        "q": "What does the name 'Inthugil' signify?",
+        "a": "In classical Tamil Sangam poetry, 'Thugil' (துகில்) denotes celestial, fine silk garments of utmost purity and grace. 'Inthugil' represents sweet, divine drapery crafted to bring dignity, comfort, and affordable beauty to every Indian woman."
+      },
+      {
+        "q": "What is Inthugil's return & exchange policy?",
+        "a": "We offer an easy 7-day hassle-free return and exchange policy from the date of delivery. Items must be unused, unwashed, and with all original tags attached. We provide doorstep reverse pickups across most Indian pin codes."
+      },
+      {
+        "q": "How do I choose the right size?",
+        "a": "Our sizing follows standard Indian sizing from XS (34\") to XXL (44\"). You can click the 'Size Guide' button on any product page for exact bust, waist, and hip measurements in both inches and centimeters."
+      },
+      {
+        "q": "Are the fabrics pure cotton and skin-friendly?",
+        "a": "Yes! Our everyday kurtis, co-ords, and loungewear pieces are crafted from 100% pure breathable cotton, modal, or soft chanderi tested for color fastness, sweat absorption, and shrink resistance."
+      },
+      {
+        "q": "What payment methods are supported?",
+        "a": "We accept all major Indian payment methods powered securely by Razorpay: UPI (Google Pay, PhonePe, Paytm, BHIM), Credit/Debit Cards (Visa, Mastercard, RuPay), Net Banking, and Cash on Delivery (COD)."
+      }
+    ]
+  },
+  "categories": [
+    {
+      "id": "cat-ethnic",
+      "name": "Ethnic Wear",
+      "tamilName": "மரபு ஆடை",
+      "slug": "ethnic-wear",
+      "headline": "Ethnic Wear, Reimagined",
+      "intro": "Graceful drapes, rich textures, and timeless silhouettes — our ethnic collection is designed for the woman who carries tradition with elegance.",
+      "image": "https://images.unsplash.com/photo-1617627143750-d86bc21e42bb?auto=format&fit=crop&w=800&q=80",
+      "itemCount": 4,
+      "metaTitle": "Ethnic Wear for Women – Kurtis, Sarees & Suits | Inthugil",
+      "metaDescription": "Discover graceful kurtis, sarees & suits at honest prices. Shop Inthugil's ethnic wear collection made for the modern Indian woman."
+    },
+    {
+      "id": "cat-western",
+      "name": "Western Wear",
+      "tamilName": "நவீன ஆடை",
+      "slug": "western-wear",
+      "headline": "Contemporary Western Styles",
+      "intro": "Elegant dresses, chic tops, and flattering co-ord sets designed for brunch, work, and every celebratory moment in between.",
+      "image": "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?auto=format&fit=crop&w=800&q=80",
+      "itemCount": 3,
+      "metaTitle": "Women's Dresses & Co-ords Online | Inthugil",
+      "metaDescription": "Elegant dresses, tops & co-ord sets for every occasion. Affordable western wear that never compromises on style. Shop now at Inthugil."
+    },
+    {
+      "id": "cat-loungewear",
+      "name": "Loungewear",
+      "tamilName": "அமைதி ஆடை",
+      "slug": "loungewear",
+      "headline": "Effortless Comfort & Lounge",
+      "intro": "Cloud-soft fabrics and relaxed tailoring that keep you looking put-together, even when you're just unwinding at home.",
+      "image": "https://images.unsplash.com/photo-1584273143981-41c073dfe8f8?auto=format&fit=crop&w=800&q=80",
+      "itemCount": 2,
+      "metaTitle": "Comfortable Loungewear for Women | Inthugil",
+      "metaDescription": "Comfortable, breathable loungewear and nightwear for women. Soft modal fabrics and relaxed fits at budget-friendly prices."
+    },
+    {
+      "id": "cat-new",
+      "name": "New Arrivals",
+      "tamilName": "புதிய வரவுகள்",
+      "slug": "new-arrivals",
+      "headline": "Mayil & Temple Gold Curations",
+      "intro": "Explore our latest drops featuring season-favorite peacock blues, auspicious temple ochres, and lightweight festive embroidery.",
+      "image": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=800&q=80",
+      "itemCount": 5,
+      "metaTitle": "New Arrivals – Latest Women's Fashion | Inthugil",
+      "metaDescription": "Explore this week's new arrivals at Inthugil. Fresh kurtis, stylish dresses, and comfortable ethnic wear at affordable prices."
+    }
+  ],
+  "products": [
+    {
+      "id": "prod-1",
+      "name": "Mayil Teal Zari Anarkali Kurti",
+      "slug": "mayil-teal-zari-anarkali-kurti",
+      "categorySlug": "ethnic-wear",
+      "categoryName": "Ethnic Wear",
+      "subCategory": "Kurtis",
+      "price": 899,
+      "originalPrice": 1699,
+      "discountPercent": 47,
+      "rating": 4.9,
+      "reviewCount": 48,
+      "isBestseller": true,
+      "isNewArrival": true,
+      "inStock": true,
+      "stockCount": 32,
+      "shortDescription": "Majestic peacock teal with subtle temple gold zari yoke — breathable, lightweight elegance for all-day grace.",
+      "description": "Inspired by the divine beauty of the sacred peacock (மயில்), this Mayil Teal Anarkali Kurti is crafted from featherlight breathable cotton. Featuring a delicate zari neck yoke reminiscent of South Indian temple borders, it combines celebratory poise with effortless everyday ease.",
+      "fabric": "Pure Breathable Cotton with Zari Yoke",
+      "fit": "A-Line Flared Fit",
+      "care": "Machine wash cold gentle. Line dry in shade.",
+      "availableSizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Mayil Teal",
+        "Temple Gold Cream"
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=900&q=80",
+        "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?auto=format&fit=crop&w=900&q=80",
+        "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=900&q=80"
+      ],
+      "imageAlt": "Mayil Teal Zari Anarkali Kurti – peacock teal ethnic kurti for women | Inthugil",
+      "tags": [
+        "kurti",
+        "anarkali",
+        "peacock",
+        "cotton",
+        "ethnic",
+        "bestseller",
+        "under-999"
+      ],
+      "metaTitle": "Mayil Teal Zari Anarkali Kurti – Buy Online | Inthugil",
+      "metaDescription": "Shop Mayil Teal Anarkali Kurti at Inthugil — peacock hues, temple zari, budget-friendly price. Free returns. Order online today."
+    },
+    {
+      "id": "prod-2",
+      "name": "Maragatham Chanderi Silk Festive Saree",
+      "slug": "maragatham-chanderi-silk-festive-saree",
+      "categorySlug": "ethnic-wear",
+      "categoryName": "Ethnic Wear",
+      "subCategory": "Sarees",
+      "price": 1399,
+      "originalPrice": 2899,
+      "discountPercent": 51,
+      "rating": 5,
+      "reviewCount": 38,
+      "isBestseller": true,
+      "isNewArrival": true,
+      "inStock": true,
+      "stockCount": 14,
+      "shortDescription": "A regal emerald green drape woven with auspicious gold temple borders for festive celebrations.",
+      "description": "Graceful and featherlight, this Maragatham (Emerald) Chanderi Saree drapes like celestial silk. Accompanied by an unstitched blouse piece in matching temple weave.",
+      "fabric": "Chanderi Art Silk with Temple Zari Pallu",
+      "fit": "Free Size (5.5m Saree + 0.8m Blouse)",
+      "care": "Dry clean recommended for first wash",
+      "availableSizes": [
+        "Free Size"
+      ],
+      "colors": [
+        "Maragatham Green",
+        "Deep Sapphire"
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1617627143750-d86bc21e42bb?auto=format&fit=crop&w=900&q=80",
+        "https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=900&q=80"
+      ],
+      "imageAlt": "Maragatham Chanderi Silk Festive Saree – emerald green festive saree for women | Inthugil",
+      "tags": [
+        "saree",
+        "silk",
+        "ethnic",
+        "festive",
+        "maragatham"
+      ],
+      "metaTitle": "Maragatham Chanderi Silk Saree – Buy Online | Inthugil",
+      "metaDescription": "Shop Maragatham Chanderi Silk Saree at Inthugil — luxurious drape, temple borders, honest pricing."
+    },
+    {
+      "id": "prod-3",
+      "name": "Senthamil Threadwork Straight Kurti Set",
+      "slug": "senthamil-threadwork-straight-kurti-set",
+      "categorySlug": "ethnic-wear",
+      "categoryName": "Ethnic Wear",
+      "subCategory": "Kurti Sets",
+      "price": 1099,
+      "originalPrice": 1999,
+      "discountPercent": 45,
+      "rating": 4.8,
+      "reviewCount": 36,
+      "isBestseller": false,
+      "isNewArrival": false,
+      "inStock": true,
+      "stockCount": 18,
+      "shortDescription": "Subtle thread embroidery meets featherlight cotton for effortless festive poise.",
+      "description": "Featuring delicate thread work inspired by traditional South Indian rangoli motifs. Accompanied by a matching straight pant and breathable dupatta.",
+      "fabric": "100% Breathable Chanderi Cotton",
+      "fit": "Straight Cut with Side Slits",
+      "care": "Hand wash with mild detergent",
+      "availableSizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Sage Green",
+        "Mint Pastel"
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=900&q=80",
+        "https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=900&q=80"
+      ],
+      "imageAlt": "Senthamil Threadwork Straight Kurti Set – green ethnic kurti set for women | Inthugil",
+      "tags": [
+        "kurti set",
+        "chanderi",
+        "ethnic",
+        "festive"
+      ],
+      "metaTitle": "Senthamil Threadwork Kurti Set – Buy Online | Inthugil",
+      "metaDescription": "Shop Senthamil Kurti Set at Inthugil — breathable fabric, elegant embroidery, budget-friendly price."
+    },
+    {
+      "id": "prod-4",
+      "name": "Kurinji Blossom Tiered Floral Midi Dress",
+      "slug": "kurinji-blossom-tiered-floral-midi-dress",
+      "categorySlug": "western-wear",
+      "categoryName": "Western Wear",
+      "subCategory": "Dresses",
+      "price": 999,
+      "originalPrice": 1899,
+      "discountPercent": 47,
+      "rating": 4.7,
+      "reviewCount": 42,
+      "isBestseller": true,
+      "isNewArrival": true,
+      "inStock": true,
+      "stockCount": 22,
+      "shortDescription": "Inspired by the famed Kurinji blossoms of Murugan's hills — romantic floral tiers with soft cotton lining.",
+      "description": "An effortless western silhouette designed with delicate puff sleeves and a waist-cinching tie belt. Crafted from ultra-lightweight georgette with a soft cotton inner lining.",
+      "fabric": "Lightweight Georgette with Pure Cotton Lining",
+      "fit": "Fit & Flare Tiered Midi",
+      "care": "Machine wash delicate in cold water",
+      "availableSizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Dusty Rose",
+        "Vintage Cream"
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?auto=format&fit=crop&w=900&q=80",
+        "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?auto=format&fit=crop&w=900&q=80"
+      ],
+      "imageAlt": "Kurinji Blossom Tiered Floral Midi Dress – floral western dress for women | Inthugil",
+      "tags": [
+        "dress",
+        "western",
+        "midi",
+        "kurinji",
+        "under-999"
+      ],
+      "metaTitle": "Kurinji Blossom Tiered Midi Dress – Buy Online | Inthugil",
+      "metaDescription": "Discover the Kurinji Blossom Floral Midi Dress at Inthugil. Affordable elegant western dress online in India."
+    },
+    {
+      "id": "prod-5",
+      "name": "Saffron Ochre Linen Shirt & Trouser Co-ord Set",
+      "slug": "saffron-ochre-linen-shirt-trouser-co-ord-set",
+      "categorySlug": "western-wear",
+      "categoryName": "Western Wear",
+      "subCategory": "Co-ord Sets",
+      "price": 1199,
+      "originalPrice": 2299,
+      "discountPercent": 48,
+      "rating": 4.9,
+      "reviewCount": 27,
+      "isBestseller": false,
+      "isNewArrival": true,
+      "inStock": true,
+      "stockCount": 16,
+      "shortDescription": "Tailored smart-casual two piece set in warm auspicious ochre linen blend.",
+      "description": "The ideal blend of minimalist structure and leisurely comfort. Features horn buttons, tailored notch lapel shirt, and wide-leg trousers with an elasticated back waistband.",
+      "fabric": "Linen Cotton Weave",
+      "fit": "Relaxed Tailored Fit",
+      "care": "Machine wash cold, iron while damp",
+      "availableSizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Saffron Ochre",
+        "Oatmeal Beige"
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&w=900&q=80",
+        "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?auto=format&fit=crop&w=900&q=80"
+      ],
+      "imageAlt": "Saffron Ochre Linen Shirt & Trouser Co-ord Set – ochre coord set for women | Inthugil",
+      "tags": [
+        "coord set",
+        "western",
+        "linen",
+        "smart casual"
+      ],
+      "metaTitle": "Saffron Ochre Linen Co-ord Set – Buy Online | Inthugil",
+      "metaDescription": "Shop Saffron Ochre Linen Co-ord Set for women at Inthugil. Stylish, breathable two-piece set at honest prices."
+    },
+    {
+      "id": "prod-6",
+      "name": "Nilavu Modal Loungewear PJ Set",
+      "slug": "nilavu-modal-loungewear-pj-set",
+      "categorySlug": "loungewear",
+      "categoryName": "Loungewear",
+      "subCategory": "Nightwear",
+      "price": 799,
+      "originalPrice": 1499,
+      "discountPercent": 46,
+      "rating": 4.9,
+      "reviewCount": 54,
+      "isBestseller": true,
+      "isNewArrival": false,
+      "inStock": true,
+      "stockCount": 40,
+      "shortDescription": "Cloud-soft modal fabric with piped satin edges for the ultimate bedtime calm.",
+      "description": "Designed for peaceful sleep and slow weekend mornings. The breathable modal fibers keep you cool in summer and cozy in winter, finished with a button-down shirt and drawstring pajama bottoms.",
+      "fabric": "100% Eco-Modal Cotton",
+      "fit": "Comfort Relaxed Fit",
+      "care": "Gentle machine wash cold",
+      "availableSizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Blush Pink",
+        "Sky Lavender"
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1584273143981-41c073dfe8f8?auto=format&fit=crop&w=900&q=80",
+        "https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&w=900&q=80"
+      ],
+      "imageAlt": "Nilavu Modal Loungewear PJ Set – pink loungewear nightwear for women | Inthugil",
+      "tags": [
+        "loungewear",
+        "nightwear",
+        "modal",
+        "sleepwear",
+        "under-999"
+      ],
+      "metaTitle": "Nilavu Modal Loungewear Set – Buy Online | Inthugil",
+      "metaDescription": "Experience all-day comfort with the Nilavu Modal Loungewear PJ Set at Inthugil. Budget-friendly luxury."
+    },
+    {
+      "id": "prod-7",
+      "name": "Kumbakonam Hand-block Cotton Kurti",
+      "slug": "kumbakonam-hand-block-cotton-kurti",
+      "categorySlug": "ethnic-wear",
+      "categoryName": "Ethnic Wear",
+      "subCategory": "Kurtis",
+      "price": 649,
+      "originalPrice": 1299,
+      "discountPercent": 50,
+      "rating": 4.8,
+      "reviewCount": 33,
+      "isBestseller": false,
+      "isNewArrival": true,
+      "inStock": true,
+      "stockCount": 28,
+      "shortDescription": "Artisanal hand-block botanical motifs inspired by temple art on pre-washed slub cotton.",
+      "description": "Everyday grace made easy. Pair this versatile straight kurti with white palazzos, cigarette trousers, or your favorite denims for effortless style from morning to night.",
+      "fabric": "100% Slub Cotton",
+      "fit": "Regular Straight Fit",
+      "care": "First wash separate in cold water",
+      "availableSizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Kumkum Red",
+        "Indigo Blue"
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?auto=format&fit=crop&w=900&q=80",
+        "https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=900&q=80"
+      ],
+      "imageAlt": "Kumbakonam Hand-block Cotton Kurti – cotton kurti for women | Inthugil",
+      "tags": [
+        "kurti",
+        "cotton",
+        "handblock",
+        "everyday",
+        "under-999"
+      ],
+      "metaTitle": "Kumbakonam Hand-block Cotton Kurti – Buy Online | Inthugil",
+      "metaDescription": "Shop everyday hand-block cotton kurtis under 699 at Inthugil. India-wide delivery and easy returns."
+    },
+    {
+      "id": "prod-8",
+      "name": "Sandalwood Ribbed Lounge Co-ord",
+      "slug": "sandalwood-ribbed-lounge-co-ord",
+      "categorySlug": "loungewear",
+      "categoryName": "Loungewear",
+      "subCategory": "Lounge Sets",
+      "price": 899,
+      "originalPrice": 1699,
+      "discountPercent": 47,
+      "rating": 4.7,
+      "reviewCount": 19,
+      "isBestseller": false,
+      "isNewArrival": false,
+      "inStock": true,
+      "stockCount": 15,
+      "shortDescription": "Textured ribbed knit that bridges the gap between home lounging and airport style.",
+      "description": "Featuring a slouchy dropped-shoulder crewneck top and high-waisted wide-leg trousers. Unbelievably soft on the skin with just the right amount of flattering stretch.",
+      "fabric": "Cotton Ribbed Knit with 5% Spandex",
+      "fit": "Relaxed Slouchy Fit",
+      "care": "Machine wash cold gentle",
+      "availableSizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Sandalwood Cream",
+        "Charcoal Gray"
+      ],
+      "images": [
+        "https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&w=900&q=80",
+        "https://images.unsplash.com/photo-1584273143981-41c073dfe8f8?auto=format&fit=crop&w=900&q=80"
+      ],
+      "imageAlt": "Sandalwood Ribbed Lounge Co-ord – comfortable lounge set for women | Inthugil",
+      "tags": [
+        "loungewear",
+        "ribbed",
+        "coord",
+        "comfortable"
+      ],
+      "metaTitle": "Sandalwood Ribbed Lounge Co-ord – Buy Online | Inthugil",
+      "metaDescription": "Shop the Sandalwood Ribbed Lounge Co-ord at Inthugil. Ultra-soft lounge set for everyday relaxation."
+    }
+  ],
+  "orders": [
+    {
+      "customer": {
+        "name": "Meena Sundaram",
+        "phone": "9876543210",
+        "email": "meena@test.com",
+        "address": "12 Temple Street",
+        "city": "Coimbatore",
+        "state": "Tamil Nadu",
+        "pincode": "641001"
+      },
+      "items": [
+        {
+          "productId": "prod-1",
+          "name": "Mayil Teal Zari Anarkali Kurti",
+          "price": 899,
+          "quantity": 1,
+          "selectedSize": "M",
+          "image": "https://images.unsplash.com/photo-1617627143750-d86bc21e42bb?auto=format&fit=crop&w=900&q=80"
+        }
+      ],
+      "subtotal": 899,
+      "shippingFee": 0,
+      "discount": 0,
+      "total": 899,
+      "paymentMethod": "Cash on Delivery (COD)",
+      "id": "ORD-1790569857935",
+      "orderNumber": "INTH-60345",
+      "orderStatus": "Placed",
+      "createdAt": "2026-09-28T04:30:57.935Z",
+      "timeline": [
+        {
+          "status": "Placed",
+          "time": "28/9/2026, 10:00:57 am",
+          "note": "Order placed via Cash on Delivery (COD)"
+        }
+      ]
+    },
+    {
+      "id": "ORD-928101",
+      "orderNumber": "INTH-84920",
+      "customer": {
+        "name": "Sneha Patel",
+        "email": "sneha.patel@example.com",
+        "phone": "+91 98200 12345",
+        "address": "Flat 402, Royal Palms, Indiranagar",
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "pincode": "560038"
+      },
+      "items": [
+        {
+          "id": "prod-1",
+          "name": "Mayil Teal Zari Anarkali Kurti",
+          "price": 899,
+          "quantity": 1,
+          "size": "M",
+          "color": "Mayil Teal",
+          "image": "https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=300&q=80"
+        }
+      ],
+      "paymentMethod": "Razorpay UPI",
+      "paymentStatus": "PAID",
+      "orderStatus": "Shipped",
+      "subtotal": 899,
+      "shippingFee": 0,
+      "discount": 0,
+      "total": 899,
+      "trackingNumber": "DELHIVERY-984210948",
+      "createdAt": "2026-09-26T10:30:00.000Z",
+      "timeline": [
+        {
+          "status": "Placed",
+          "time": "26 Sep 2026, 10:30 AM",
+          "note": "Order placed via UPI"
+        },
+        {
+          "status": "Confirmed",
+          "time": "26 Sep 2026, 11:15 AM",
+          "note": "Payment verified by Razorpay"
+        },
+        {
+          "status": "Shipped",
+          "time": "27 Sep 2026, 04:00 PM",
+          "note": "Dispatched via Delhivery Express"
+        }
+      ]
+    }
+  ],
+  "inquiries": [
+    {
+      "name": "Priya",
+      "email": "priya@test.com",
+      "message": "Hello Inthugil!",
+      "id": "inq-1790569872277",
+      "date": "2026-09-28T04:31:12.277Z",
+      "status": "New"
+    },
+    {
+      "id": "inq-1",
+      "name": "Kavitha R.",
+      "email": "kavitha.r@gmail.com",
+      "phone": "+91 94441 55667",
+      "orderNumber": "INTH-84920",
+      "message": "Loved the Mayil Teal kurti! The zari yoke is so graceful. When will size XXL be available in the emerald chanderi saree?",
+      "date": "2026-09-27T14:20:00.000Z",
+      "status": "Resolved"
+    }
+  ]
+}
